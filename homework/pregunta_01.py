@@ -85,7 +85,7 @@ def create_visual_for_average_Customer_rating(df):
     plt.gca().spines["bottom"].set_color("gray")
     plt.gca().spines["top"].set_visible(False)
     plt.gca().spines["right"].set_visible(False)
-    plt.savefig("docs/average_Customer_rating.png")
+    plt.savefig("docs/average_customer_rating.png")
 
 def create_visual_for_weight_distribution(df):
     df = df.copy()
@@ -149,7 +149,7 @@ def pregunta_01():
                 <img src="mode_of_shipment.png" alt="Fig 2">
             </div>
             <div style="width:45; float:left">
-                <img src="average_Customer_rating.png" alt="Fig 4">
+                <img src="average_customer_rating.png" alt="Fig 4">
                 <img src="weight_distribution.png" alt="Fig 3">
             </div>
         </body>
